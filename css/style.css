@@ -64,9 +64,15 @@ body {
   cursor: pointer;
 }
 
-ul {
-  display: flex;
+#productList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  
 }
+
+
+
 
 .productsCard {
   width: 260px;
